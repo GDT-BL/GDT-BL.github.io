@@ -125,8 +125,15 @@ body {
 
 .results-carousel video {
   margin: 0;
+  z-index:0;
 }
 
+.results-carousel overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
 
 .interpolation-panel {
   background: #f5f5f5;
@@ -155,3 +162,4 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
