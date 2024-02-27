@@ -195,43 +195,29 @@
       <section class="section">
         <div class="container is-max-desktop">
           <div class="columns is-centered">
+            <!-- Removed redundant opening <div class="columns is-centered"> tag -->
             <div class="column is-full-width">
               <h2 class="title is-3">Experiment on Block-Pushing Environment</h2>
-              <h3 class="title is-4">Videos for Block-pushing</h3>
+              <h3 class="title is-4">Video for Block-pushing</h3>
               <div class="content has-text-justified">
                 <p>
-                  Below are the videos demonstrating experiments on block-pushing
+                  Below is the video demonstrating experiment on block-pushing
                 </p>
               </div>
               <br>
               <div class="columns is-vcentered interpolation-panel">
-                <!-- Video 1 -->
                 <div class="column has-text-centered">
                   <video autoplay controls muted loop playsinline height="100%">
-                    <source src="static/images/section2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-                <!-- Video 2 -->
-                <div class="column has-text-centered">
-                  <video autoplay controls muted loop playsinline height="100%">
-                    <source src="static/images/section3.mp4" type="video/mp4"> <!-- Update src as needed -->
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-                <!-- Video 3 -->
-                <div class="column has-text-centered">
-                  <video autoplay controls muted loop playsinline height="100%">
-                    <source src="static/images/section4.mp4" type="video/mp4"> <!-- Update src as needed -->
+                    <source src="static/images/move_to_plant_x8_hres_caption.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
                 </div>
               </div>
             </div>
+            <!-- Fixed closing div tags -->
           </div>
         </div>
       </section>
-      
       
       
 
