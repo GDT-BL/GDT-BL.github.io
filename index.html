@@ -184,7 +184,8 @@
                 <!--/ Interpolating. -->
 
                 <!-- Re-rendering. -->
-                <h3 class="title is-4">Comparison among Goal-driven transformer and conditional transformer</h3>
+                <h3 class="title is-4">Comparison among Goal-driven transformer and <cite><a href="#Cui2022">CBeT</a></cite> (Cui et al., 2022)</h3>
+
                 <div class="content has-text-justified">
                   <p>
                     Below are the videos demonstrating the comparison of goal-driven transformer and conditional transformer completing the same task.
@@ -241,101 +242,8 @@
                     <p>Goal conditional transformer</p>
                   </div>
                 </div>
-
-                <!-- <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div> -->
-                <!--/ Re-rendering. -->
-
-              </div>
-            </div>
-            <!--/ Animation. -->
-
-
-            <!-- Concurrent Work. -->
-            <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-            <!--/ Concurrent Work. -->
-
           </div>
       </section>
-
-
-      <!--section class="section" id="BibTeX">
-        <div class="container is-max-desktop content">
-          <h2 class="title">BibTeX</h2>
-          <pre><code> @inproceedings{huang23vlmaps,
-          title={Visual Language Maps for Robot Navigation},
-          author={Chenguang Huang and Oier Mees and Andy Zeng and Wolfram Burgard},
-          booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
-          year={2023},
-          address = {London, UK}
-          } </code></pre>
-        </div>
-      </section-->
-
-
-      <!--section class="section">
-        <div class="container is-max-desktop">
-          <h2 class="title is-3">People</h2>
-          <div class="columns container">
-            <div class="column has-text-centered profile">
-              <a href="http://www2.informatik.uni-freiburg.de/~huang/"><img src="static/images/huang.jpg"
-                  alt="Chenguang Huang" /></a>
-              <h3><a href="http://www2.informatik.uni-freiburg.de/~huang/">Chenguang Huang</a></h3>
-            </div>
-
-            <div class="column has-text-centered profile">
-              <a href="http://www.oiermees.com"><img src="static/images/mees.jpg" alt="Oier Mees" /></a>
-              <h3><a href="http://www.oiermees.com">Oier Mees</a></h3>
-            </div>
-
-            <div class="column has-text-centered profile">
-              <a href="https://andyzeng.github.io/"><img src="static/images/andy.jpg" alt="Andy Zeng" /></a>
-              <h3><a href="https://andyzeng.github.io/">Andy Zeng</a></h3>
-            </div>
-
-            <div class="column has-text-centered profile">
-              <a href="https://www.utn.de/1/wolfram-burgard/"><img src="static/images/burgard.jpg"
-                  alt="Wolfram Burgard" /></a>
-              <h3><a href="https://www.utn.de/1/wolfram-burgard/">Wolfram Burgard</a></h3>
-            </div>
-
-          </div>
-
-        </div>
-      </section-->
-
 
       <footer class="footer">
         <div class="container">
@@ -359,7 +267,24 @@
             </div>
           </div>
         </div>
-      </footer>
+
+        <section class="section">
+          <div class="container is-max-desktop">
+            <h2 class="title is-3">References</h2>
+            <div class="content">
+              <ul>
+                <li id="Cui2022">
+                  Cui, Z. J., Wang, Y., Shafiullah, N. M. M., & Pinto, L. (2022). <i>From play to policy: Conditional behavior generation from uncurated robot data</i>. arXiv preprint arXiv:2210.10047. <a href="https://arxiv.org/abs/2210.10047">https://arxiv.org/abs/2210.10047</a>
+                </li>
+                <!-- Add more citations here -->
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+        
+
+      </footer>      
 
 </body>
 
